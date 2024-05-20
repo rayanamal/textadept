@@ -131,7 +131,7 @@ jobs:
             unzip -d textadept-modules $module.zip
           done
           forked_modules="lsp"
-          for module in $modules; do
+          for module in $forked_modules; do
             gh_name="`echo -n $module | sed -e 's/_/-/g;'`"
             gh_prefix="https://github.com/rayanamal/textadept-$gh_name"
             wget $gh_prefix/releases/download/latest/$module.zip
