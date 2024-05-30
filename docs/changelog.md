@@ -2,6 +2,26 @@
 
 [Atom Feed](https://github.com/orbitalquark/textadept/releases.atom)
 
+
+### 12.4.1 (30 May 2024)
+
+Download:
+
+- [Textadept 12.4 -- Windows][]
+- [Textadept 12.4 -- macOS 11+][]
+- [Textadept 12.4 -- Linux][]
+- [Textadept 12.4 -- Modules][]
+
+Changes:
+
+- Forked the project.
+- Added code folding event.
+
+[Textadept 12.4 -- Windows]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.win.zip
+[Textadept 12.4 -- macOS 11+]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.macOS.zip
+[Textadept 12.4 -- Linux]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.linux.tgz
+[Textadept 12.4 -- Modules]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.modules.zip
+
 ### 12.4 (01 May 2024)
 
 Download:

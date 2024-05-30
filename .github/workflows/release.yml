@@ -175,3 +175,4 @@ jobs:
           bodyFile: log.md
           artifacts: textadept_*
           token: ${{ secrets.GITHUB_TOKEN }}
+          
