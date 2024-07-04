@@ -28,12 +28,30 @@ Changes:
 - Added basic auto-detection of file indentation, conrtrolled with [`io.detect_indentation`][].
 - Updated to [Lua][] 5.4.7.
 
-[Textadept 12.5 beta -- Windows]: https://github.com/orbitalquark/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.win.zip
-[Textadept 12.5 beta -- macOS 11+]: https://github.com/orbitalquark/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.macOS.zip
-[Textadept 12.5 beta -- Linux]: https://github.com/orbitalquark/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.linux.tgz
-[Textadept 12.5 beta -- Modules]: https://github.com/orbitalquark/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.modules.zip
+[Textadept 12.5 beta -- Windows]: https://github.com/rayanamal/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.win.zip
+[Textadept 12.5 beta -- macOS 11+]: https://github.com/rayanamal/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.macOS.zip
+[Textadept 12.5 beta -- Linux]: https://github.com/rayanamal/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.linux.tgz
+[Textadept 12.5 beta -- Modules]: https://github.com/rayanamal/textadept/releases/download/textadept_12.5_beta/textadept_12.5_beta.modules.zip
 [`io.detect_indentation`]: api.html#io.detect_indentation
 [Lua]: https://lua.org
+
+### 12.4.1 (30 May 2024)
+
+Download:
+
+- [Textadept 12.4 -- Windows][]
+- [Textadept 12.4 -- macOS 11+][]
+- [Textadept 12.4 -- Linux][]
+- [Textadept 12.4 -- Modules][]
+
+Changes:
+
+- Added code folding event `events.FOLDED`.
+
+[Textadept 12.4 -- Windows]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.win.zip
+[Textadept 12.4 -- macOS 11+]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.macOS.zip
+[Textadept 12.4 -- Linux]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.linux.tgz
+[Textadept 12.4 -- Modules]: https://github.com/rayanamal/textadept/releases/download/textadept_12.4/textadept_12.4.modules.zip
 
 ### 12.4 (01 May 2024)
 
