@@ -123,10 +123,17 @@ jobs:
         shell: bash
         run: |
           mkdir textadept-modules
-          modules="debugger export file_diff format lsp lua_repl open_file_mode scratch spellcheck"
+          modules="debugger export file_diff format lua_repl open_file_mode scratch spellcheck"
           for module in $modules; do
             gh_name="`echo -n $module | sed -e 's/_/-/g;'`"
             gh_prefix="https://github.com/orbitalquark/textadept-$gh_name"
+            wget $gh_prefix/releases/download/latest/$module.zip
+            unzip -d textadept-modules $module.zip
+          done
+          forked_modules="lsp"
+          for module in $forked_modules; do
+            gh_name="`echo -n $module | sed -e 's/_/-/g;'`"
+            gh_prefix="https://github.com/rayanamal/textadept-$gh_name"
             wget $gh_prefix/releases/download/latest/$module.zip
             unzip -d textadept-modules $module.zip
           done
