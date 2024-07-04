@@ -1,7 +1,5 @@
 name: release
 on:
-  schedule:
-    - cron: "0 4 * * *"
   workflow_dispatch:
     inputs:
       nightly:
@@ -174,4 +172,9 @@ jobs:
           allowUpdates: true
           bodyFile: log.md
           artifacts: textadept_*
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Trigger cleanup workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: cleanup.yml
           token: ${{ secrets.GITHUB_TOKEN }}

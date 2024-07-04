@@ -1,7 +1,5 @@
 name: cleanup
-on:
-  schedule:
-    - cron: '15 4 * * *'
+on: workflow_dispatch
 
 jobs:
   cleanup:
