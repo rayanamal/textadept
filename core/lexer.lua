@@ -19,6 +19,12 @@ M.names = function(path) return names(path or _LEXERPATH) end
 -- - *name*: The language lexer's name.
 _G.events.LEXER_LOADED = 'lexer_loaded'
 
+--- Emitted after code folding is done by the lexer.
+-- This is useful for performing manual folding and manipulation of the folding table 
+-- buffer.fold_level after lexer is done folding the code, where the built-in facilities for
+-- code folding doesn't suffice.
+_G.events.FOLDED = 'folded'
+
 -- LuaDoc is in core/.buffer.luadoc.
 local function get_lexer(buffer, current)
 	if not current then return buffer.lexer_language end
